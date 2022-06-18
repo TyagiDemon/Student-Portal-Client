@@ -143,11 +143,7 @@ export default function Form() {
 							error={!loginQuery.validEmail}
 						/>
 
-						<FormControl
-							sx={{ width: "25ch" }}
-							variant="standard"
-							className="w-full"
-						>
+						<FormControl style={{ width: "100%" }} variant="standard">
 							<InputLabel htmlFor="login-password">Password</InputLabel>
 							<Input
 								id="login-password"
@@ -194,11 +190,7 @@ export default function Form() {
 							helperText={!registerQuery.validEmail && "Invalid email"}
 							error={!registerQuery.validEmail}
 						/>
-						<FormControl
-							sx={{ width: "25ch" }}
-							variant="standard"
-							className="w-full"
-						>
+						<FormControl style={{ width: "100%" }} variant="standard">
 							<InputLabel htmlFor="register-password">Password</InputLabel>
 							<Input
 								id="register-password"
@@ -227,11 +219,7 @@ export default function Form() {
 								}
 							/>
 						</FormControl>
-						<FormControl
-							sx={{ width: "25ch" }}
-							variant="standard"
-							className="w-full"
-						>
+						<FormControl style={{ width: "100%" }} variant="standard">
 							<InputLabel htmlFor="confirm-password-register">
 								Confirm Password
 							</InputLabel>
