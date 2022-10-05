@@ -1,18 +1,11 @@
-import tw from "tailwind-styled-components";
-import Footer from "../components/Footer";
-import Form from "../components/Form";
+import Navbar from "../components/Navbar";
+import AllClasses from "../components/AllClasses";
 
-export default function Home() {
+export default function home() {
 	return (
-		<Wrapper>
-			<div>
-				<Form />
-			</div>
-			<Footer />
-		</Wrapper>
+		<div className="min-h-screen">
+			<Navbar />
+			<AllClasses />
+		</div>
 	);
 }
-
-const Wrapper = tw.div`
-  min-h-screen flex flex-col justify-center
-`;

@@ -269,9 +269,9 @@ export default function Form() {
 		</Wrapper>
 	);
 }
-
-const Wrapper = tw.div`flex flex-col mx-auto bg-[#3A5BA0] p-8 rounded-lg w-min text-md shadow-md shadow-gray-400`;
+// bg-[#3A5BA0]
+const Wrapper = tw.div`flex flex-col bg-[#3A5BA0] mx-auto p-8 rounded-lg w-[90%] md:w-96 text-md shadow-md shadow-gray-400`;
 const Heading = tw.div`text-gray-50 font-bold text-center pb-3`;
-const FormBox = tw.div`flex flex-col w-72 gap-4 bg-gray-50 p-4 rounded-lg`;
+const FormBox = tw.div`flex flex-col gap-4 bg-gray-50 p-4 rounded-lg`;
 const Message = tw.div`text-gray-50 text-sm mt-1 underline`;
 const Button = tw.button`bg-[#FFA500] text-lg font-bold mt-4 rounded-lg shadow-md hover:opacity-[.90] transition py-2`;
