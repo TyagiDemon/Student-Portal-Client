@@ -7,7 +7,7 @@ import classes from "../../data/classes";
 import AllPosts from "../../components/AllPosts";
 import ClassInfo from "../../components/ClassInfo";
 
-export default function id() {
+export default function Class() {
 	const router = useRouter();
 	const { id } = router.query;
 	const [data, setData] = useState({
